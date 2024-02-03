@@ -1,0 +1,25 @@
+
+{
+  "perfil": {
+    "foto_perfil":"/person.png",
+    "titulo": "Olá, me chamo",
+    "nome": "Alexandre",
+    "sobre_nome":"Brasil",
+    "sobre": "I'm a professional Web Developer. Our Main Goal to help & Satisficed the Local & Global Clients by web development solutions",
+    "habilidades": ["JavaScript", "React", "HTML", "CSS"],
+    "contato": {
+      "email": "seuemail@example.com",
+      "telefone": "123-456-7890"
+    }
+  },
+  "Quem somos":{
+    "titulo":"Somos alexandre Brasil"
+  },
+  "contact":{
+    "linkedin":"https://www.linkedin.com/in/alexandre-brasil-dos-santos/",
+    "github":"https://github.com/alexandre-cooper",
+    "insta":"https://www.instagram.com/_alexandre.brasil/",
+    "youtube":"https://www.youtube.com/channel/UCM6JiU-SwOc4GEpVxHFctWw"
+  }
+  
+}
