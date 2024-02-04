@@ -15,14 +15,32 @@ function App() {
   return (
     <div>
       <Header modoEscuro={darkMode} onToggle={toggleTema} />
-      <section>
-        <img src={foto_perfil} />
-        <h1>{titulo}</h1>
-        <h1>{nome}</h1>
-        <h1>{sobre_nome}</h1>
-        <p>{sobre}</p>
+      <section className="container">
+        <div className="main">
+        <div class="images">
+                <img src={foto_perfil} />
+                <span class="bg-effect-1">
+                <span class="bg-effect-1"></span>
+
+                </span>
+            </div>
         
+
+        <div className="info">
+        <p>{titulo}</p>
+        <span className="name">
+        <h1 className="name_complete">{nome}</h1>
+        <h1>{sobre_nome}</h1>
+        </span>
+        <p>{sobre}</p>
+        </div>
+        </div>
       </section>
+      
+      <section>
+        <h1>{titulo}</h1>
+      </section>
+
     </div>
   );
 }
