@@ -12,14 +12,37 @@
       "telefone": "123-456-7890"
     }
   },
-  "Quem somos":{
-    "titulo":"Somos alexandre Brasil"
+  "sobre":{
+    "description":"Olá, sou Alexandre Brasil, um entusiasta do Desenvolvimento Web de 23 anos. Nos últimos 3 anos, tenho me dedicado intensamente aos estudos e ao trabalho na área, focando especialmente no ecossistema do JavaScript. Minha jornada começou em 2017 durante o curso de Gestão da Tecnologia da Informação na Unicesumar. Lá, adquiri conhecimentos fundamentais em lógica de programação, algoritmos e tive meu primeiro contato com as linguagens C e Java. Após concluir o curso, busquei aprimoramento e me especializei em Desenvolvimento Mobile pela Universidade Unyleya. Ao longo dessa jornada, explorei tecnologias como JavaScript, CSS, HTML, Type Script, React Native, React JS, Flutter, entre outras. Atualmente, concentro meu foco principal no ecossistema JavaScript, dedicando-me diariamente à criação de novos projetos para aplicar meus conhecimentos na prática.Estou sempre em busca de desafios que me permitam crescer profissionalmente e contribuir para a criação de experiências web excepcionais. Se você estiver interessado em colaborar ou desejar saber mais sobre meus projetos, fique à vontade para entrar em contato."
   },
   "contact":{
     "linkedin":"https://www.linkedin.com/in/alexandre-brasil-dos-santos/",
     "github":"https://github.com/alexandre-cooper",
     "insta":"https://www.instagram.com/_alexandre.brasil/",
     "youtube":"https://www.youtube.com/channel/UCM6JiU-SwOc4GEpVxHFctWw"
+  },
+  "skills":{
+    "typeScript":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "java":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "reactJs":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "node":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "nextJs":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "git":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "PostgreSQL":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "html":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "figma":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+    "wordExpress":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
+    "kali":"https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg",
+    "blender":"https://upload.wikimedia.org/wikipedia/commons/0/0c/Blender_logo_no_text.svg",
+    "shopify":"/shopify.svg",
+    "photoshop":"https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+    "premiere_pro":"https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
+    "nest":"https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg",
+    "keycloak":"https://upload.wikimedia.org/wikipedia/commons/2/29/Keycloak_Logo.png",
+    "css":"https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
+    "adobe_ilustrator":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
+    "corelDraw":"https://upload.wikimedia.org/wikipedia/commons/f/f1/CorelDraw_logo.svg"
   }
-  
 }
+
+

@@ -91,3 +91,50 @@ span h1{
   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   border-top: 2px solid var(--primary-titulo-text);
 }
+section span {
+  display: flex;
+  flex-direction: row;
+}
+.titulo {
+  margin-left: 15px;
+}
+.subtitulo {
+  margin-left: 20px;
+}
+.description {
+  margin: 40px;
+}
+.container_skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.section_skills {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid_skills {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 16px;  /* Espaço entre as imagens, ajuste conforme necessário */
+}
+
+.card_skills {
+  overflow: hidden;
+  border-radius: 8px;
+
+}
+
+.icones_skills {
+  width: 80px;
+  width: 80px;
+  object-fit: cover;  /* Ajusta a imagem para cobrir completamente o contêiner */
+  border-radius: 8px;  /* Certifique-se de ajustar isso para combinar com 'card_skills' */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
