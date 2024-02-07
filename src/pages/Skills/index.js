@@ -22,7 +22,7 @@ export default function Skills(){
       </div>
       </div>
 
-      <div className="divi-principal">
+      <div className="container_services">
       <div className="services_grid">
       {services.map((service, index) => (
       <ul className="card_services" key={index}>
