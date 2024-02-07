@@ -22,6 +22,9 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+a:active {
+  color: var(--primary-titulo-text);
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -55,7 +58,6 @@ code {
 }
 .listItems {
   display: flex;
- 
   padding: 20px;
 }
 .listItems li{
@@ -105,11 +107,8 @@ code {
     transition: 0.5s;
   }
   .listItems{
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: var(--primary-light-bg);
-    margin-top: 50px;
   }
   .list {
     display: flex;
@@ -121,12 +120,14 @@ code {
     list-style: none;
   }
   .list .listItems li {
-    margin: 2px 8px;
     cursor: pointer;
   }
   .listItems li a {
+
     font-weight: 800;
     font-size: 20px;
+    color: #fff;
+  
   }
   .list .listItems li:hover {
     font-weight: 800;
@@ -147,9 +148,13 @@ code {
     transform: rotate(135deg);
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
-  
   .menu.menuOpen {
-    background-color: var(--primary-light-bg);
+    border-radius: 15px;
+    margin-top: 55px;
+    display: flex;
+    height: 350px;
+    padding-top: 50px;
+    background-color: #222;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
   .menu.menuClose {
@@ -204,7 +209,6 @@ section span {
   display: flex;
   flex-direction: column;
   margin: 5px;
-  align-items: center;
 }
 .titulo {
   margin-left: 15px;
@@ -475,6 +479,14 @@ div .portfolio_container {
     width: fit-content;
     height: 44px;
     cursor: pointer;
+  }
+  .list_portfolio {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-dark-text);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
   }
 
 }

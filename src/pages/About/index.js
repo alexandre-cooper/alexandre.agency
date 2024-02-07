@@ -7,8 +7,8 @@ export default function About(){
   return(
     <div className="container_about">
       <h1 className="titulo">Sobre o mim</h1>
-      <h3 className="subtitulo">Bem vindo(a) a meu portfolio!</h3>
       <section >
+      <h3 className="subtitulo">Bem vindo(a) a meu portfolio!</h3>
         <span>
           <p className="description">{description}</p>
           <div>
