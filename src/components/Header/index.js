@@ -14,6 +14,7 @@ export default function Header({ modoEscuro, onToggle }) {
         <li> <Link to="/skills">Skills</Link>  </li>
         <li> <Link to="/portfolio">Portfolio</Link>  </li>
         <li> <Link to="/contact">Contact</Link>  </li>
+        <li> <Link to={'/hire'}>Hire</Link> </li>
       </ul>
       <TemaToggle onToggle={onToggle} />
     </header>

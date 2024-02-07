@@ -28,7 +28,7 @@
     "node":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     "nextJs":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     "git":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-    "PostgreSQL":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "postgreSQL":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
     "html":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     "figma":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
     "wordExpress":"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg",
@@ -42,7 +42,54 @@
     "css":"https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
     "adobe_ilustrator":"https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
     "corelDraw":"https://upload.wikimedia.org/wikipedia/commons/f/f1/CorelDraw_logo.svg"
+  },
+  "description_skill":{
+    "javascript":"JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional).[2][3] Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.[4] É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante utilizada do lado do servidor através de ambientes como o node.js."
+  },
+  "portfolio": [
+  {
+      "link":"https://www.google.com",
+      "titulo":"google",
+      "foto_capa":"/iMac_and_iPhone.png"
+  },
+  {
+    "link":"https://www.google.com",
+    "titulo":"google te",
+    "foto_capa":"/iMac_and_iPhone.png"
+  },
+  {
+    "link":"https://www.google.com",
+    "titulo":"google te",
+    "foto_capa":"/iMac_and_iPhone.png"
   }
+],
+  "my_services": [
+    {
+      "icon": "/shopify.svg",
+      "titulo": "Serviço 1",
+      "description": "Descrição do Serviço 1"
+    },
+    {
+      "icon": "/shopify.svg",
+      "titulo": "Serviço 2",
+      "description": "Descrição do Serviço 2"
+    },
+    {
+      "icon": "/shopify.svg",
+      "titulo": "Serviço 2",
+      "description": "Descrição do Serviço 2"
+    },
+    {
+      "icon": "/shopify.svg",
+      "titulo": "Serviço 2",
+      "description": "Descrição do Serviço 2"
+    },
+    {
+      "icon": "/shopify.svg",
+      "titulo": "Serviço 2",
+      "description": "Descrição do Serviço 2"
+    }
+  ]
 }
 
 

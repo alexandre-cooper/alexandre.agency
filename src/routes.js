@@ -8,6 +8,9 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import Hire from './pages/Hire';
+import Form from './pages/Form';
 
 
 function RoutesApp() {
@@ -25,7 +28,10 @@ function RoutesApp() {
         <Route path="/skills" element={<Skills/>} />
         <Route path="/portfolio" element={<Portfolio/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/hire" element={<Hire/>} />
+        <Route path="/form" element={<Form/>} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }

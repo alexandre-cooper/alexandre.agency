@@ -1,13 +1,14 @@
 import React from "react";
 import data from '../../data.json';
 
-export default function Skills(){
 
+export default function Skills(){
+  const services = data.my_services || [];
   const { java,
           typeScript,
           html,
           node,
-          PostgreSQL,
+          postgreSQL,
           figma,
           git,
           kali,
@@ -24,6 +25,7 @@ export default function Skills(){
           adobe_ilustrator,
           corelDraw
          } = data.skills;
+  const { javascript } = data.description_skill;
 
   return(
     <div className="container_skills">
@@ -39,7 +41,7 @@ export default function Skills(){
         <img className="icones_skills" src={html} alt="Icone skills"/>
         <img className="icones_skills" src={css} alt="Icone skills"/>
         <img className="icones_skills" src={node} alt="Icone skills"/>
-        <img className="icones_skills" src={PostgreSQL} alt="Icone skills"/>
+        <img className="icones_skills" src={postgreSQL} alt="Icone skills"/>
         <img className="icones_skills" src={keycloak} alt="Icone skills"/>
         <img className="icones_skills" src={nest} alt="Icone skills"/>
         <img className="icones_skills" src={wordExpress} alt="Icone skills"/>
@@ -54,6 +56,19 @@ export default function Skills(){
         <img className="icones_skills" src={corelDraw} alt="Icone skills"/>
       </div>
       </div>
+
+      <div className="divi-principal">
+      <div className="services_grid">
+      {services.map((service, index) => (
+      <ul className="card_services" key={index}>
+        <li><img width={100} src={service.icon} alt="icon"/> </li>
+        <li>{service.titulo}</li>
+        <li>{service.description}</li>
+      </ul>
+    ))}
+      </div>
+      </div>
+      
       </section>
     </div>
   )

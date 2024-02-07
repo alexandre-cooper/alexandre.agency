@@ -1,5 +1,6 @@
 import React from "react";
 import data from '../../data.json';
+import Skills from "../Skills";
 
 export default function About(){
   const { description } = data.sobre;
@@ -10,7 +11,7 @@ export default function About(){
       <section>
         <span><p className="description">{description}</p> <img src="/person.png"/></span>
       </section>
-      
+      <Skills/>
     </div>
   )
 }
