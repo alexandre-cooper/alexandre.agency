@@ -11,10 +11,9 @@ function Home() {
       <section className="container">
         <div className="main">
         <div class="images">
-                <img src={foto_perfil} />
+                <img className="foto_perfil" src={foto_perfil} alt="Foto de perfil" />
                 <span class="bg-effect-1">
                 <span class="bg-effect-1"></span>
-
                 </span>
             </div>
         <div className="info">
@@ -23,7 +22,7 @@ function Home() {
         <h1 className="name_complete">{nome}</h1>
         <h1>{sobre_nome}</h1>
         </span>
-        <p>{sobre}</p>
+        <p className="about_p">{sobre}</p>
         </div>
         </div>
       </section>

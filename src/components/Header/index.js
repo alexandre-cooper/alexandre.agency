@@ -1,14 +1,25 @@
 // src/components/Header.js
-import React from "react";
+import React, {useState} from "react";
 import TemaToggle from "../../components/TemaToggle";
 
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 export default function Header({ modoEscuro, onToggle }) {
+
+  const [active, setMode] = useState(false);
+  const ToggleMode = () => {
+    setMode(!active)
+  }
+
   return (
-    <header className={modoEscuro ? 'modo-escuro' : ''}>
+    <div  className={active? 'icon iconActive':'icon'} onClick={ToggleMode}>
+       <div className={active? 'icon iconActive':'icon'} onClick={ToggleMode}>
+        <div className="hamburguer hamburguerIcon"></div>
+            </div>
+      <div className={active? 'menu menuOpen':'menu menuClose'}>
+      <nav className="list">
       <a><h1>Logo</h1></a>
-      <ul>
+      <ul className="listItems">
         <li> <Link to="/">Home</Link> </li>
         <li> <Link to="/about">About</Link> </li>
         <li> <Link to="/skills">Skills</Link>  </li>
@@ -17,6 +28,8 @@ export default function Header({ modoEscuro, onToggle }) {
         <li> <Link to={'/hire'}>Hire</Link> </li>
       </ul>
       <TemaToggle onToggle={onToggle} />
-    </header>
+    </nav>
+      </div>
+    </div>
   );
 }
