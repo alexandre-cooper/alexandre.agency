@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 // src/index.js ou src/App.js
 import 'bootstrap-icons/font/bootstrap-icons.css';
-  
 const TemaToggle = ({ onToggle }) => {
   const [modoEscuro, setModoEscuro] = useState(false);
 
@@ -12,7 +11,7 @@ const TemaToggle = ({ onToggle }) => {
   };
 
   return (
-    <div>
+    <div className='tema_toggle'>
       <label>
         {modoEscuro ? (
           <span className="bi bi-sun" style={{ color: 'yellow', fontSize: '2em' }}></span>
