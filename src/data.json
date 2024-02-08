@@ -1,7 +1,7 @@
 
 {
   "perfil": {
-    "foto_perfil":"/person.png",
+    "foto_perfil":"/person.webp",
     "titulo": "Olá, me chamo",
     "nome": "Alexandre",
     "sobre_nome":"Brasil",
@@ -13,6 +13,7 @@
     }
   },
   "sobre":{
+    "programing":"/programing.svg",
     "description":"Olá, sou Alexandre Brasil, um entusiasta do Desenvolvimento Web de 23 anos. Nos últimos 3 anos, tenho me dedicado intensamente aos estudos e ao trabalho na área, focando especialmente no ecossistema do JavaScript. Minha jornada começou em 2017 durante o curso de Gestão da Tecnologia da Informação na Unicesumar. Lá, adquiri conhecimentos fundamentais em lógica de programação, algoritmos e tive meu primeiro contato com as linguagens C e Java. Após concluir o curso, busquei aprimoramento e me especializei em Desenvolvimento Mobile pela Universidade Unyleya. Ao longo dessa jornada, explorei tecnologias como JavaScript, CSS, HTML, Type Script, React Native, React JS, Flutter, entre outras. Atualmente, concentro meu foco principal no ecossistema JavaScript, dedicando-me diariamente à criação de novos projetos para aplicar meus conhecimentos na prática.Estou sempre em busca de desafios que me permitam crescer profissionalmente e contribuir para a criação de experiências web excepcionais. Se você estiver interessado em colaborar ou desejar saber mais sobre meus projetos, fique à vontade para entrar em contato."
   },
   "contact":{
@@ -87,43 +88,48 @@
   {
       "link":"https://www.google.com",
       "titulo":"google",
-      "foto_capa":"/iMac_and_iPhone.png"
+      "foto_capa":"/inversol.png"
   },
   {
     "link":"https://www.google.com",
     "titulo":"google te",
-    "foto_capa":"/iMac_and_iPhone.png"
+    "foto_capa":"/inversol.png"
   },
   {
     "link":"https://www.google.com",
     "titulo":"google te",
-    "foto_capa":"/iMac_and_iPhone.png"
+    "foto_capa":"/inversol.png"
   }
 ],
   "my_services": [
     {
       "icon": "/shopify.svg",
-      "titulo": "Serviço 1",
+      "titulo": "Development",
       "description": "Descrição do Serviço 1"
     },
     {
       "icon": "/shopify.svg",
-      "titulo": "Serviço 2",
+      "titulo": "Design",
       "description": "Descrição do Serviço 2"
     },
     {
       "icon": "/shopify.svg",
-      "titulo": "Serviço 2",
+      "titulo": "Digital Marketing",
       "description": "Descrição do Serviço 2"
     },
     {
       "icon": "/shopify.svg",
-      "titulo": "Serviço 2",
+      "titulo": "Motion Art",
       "description": "Descrição do Serviço 2"
     },
     {
       "icon": "/shopify.svg",
-      "titulo": "Serviço 2",
+      "titulo": "3D blender",
+      "description": "Descrição do Serviço 2"
+    },
+    {
+      "icon": "/shopify.svg",
+      "titulo": "Videos animados",
       "description": "Descrição do Serviço 2"
     }
   ]

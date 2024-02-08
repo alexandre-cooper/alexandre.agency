@@ -14,7 +14,7 @@ export default function Portfolio(){
         {portfolio.map((item, index)=>{
           return(
             <ul className="list_portfolio" key={index}>
-              <li><img width={300} src={item.foto_capa} alt="Foto de capa portfolio" /></li>
+              <li><img className="photo_portfolio" src={item.foto_capa} alt="Foto de capa portfolio" /></li>
               <li>{item.titulo}</li>
               <li> <a className="btn_acess" href={item.link} target="_blank" rel="noreferrer">Acessar</a> </li>
             </ul>

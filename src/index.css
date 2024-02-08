@@ -30,6 +30,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.modo-escuro .images {
+  background: linear-gradient(145deg, #1f252e, #2e3239);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #1b1f27;
+  border-top: 2px solid var(--primary-titulo-text);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0px;
+}
 .tema_toggle {
   position: fixed;
   z-index: 4;
@@ -177,6 +185,12 @@ code {
 span h1{
   font-size: 50px;
 }
+.foto_perfil {
+  width: 450px;
+}
+.photo_portfolio {
+  width: 500px;
+}
 .name_complete {
   margin-right: 10px;
   color: var(--primary-titulo-text);
@@ -217,6 +231,7 @@ section span {
   margin-left: 20px;
 }
 .description {
+  text-align: justify;
   margin: 15px;
 }
 .container_skills {
@@ -361,6 +376,9 @@ div .portfolio_container {
 .all_reservs h4 {
   font-weight: 300;
 }
+.img_about {
+  width: 400px;
+}
 
 
 /*  Responsividade  */
@@ -414,7 +432,7 @@ div .portfolio_container {
     text-align: justify;
   }
   .img_about {
-    width: 300px;
+    width: auto;
   }
   .container_about span {
     display: flex;
@@ -487,6 +505,9 @@ div .portfolio_container {
     align-items: center;
     color: var(--primary-dark-text);
     box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+  }
+  .photo_portfolio {
+    width: 300px;
   }
 
 }
