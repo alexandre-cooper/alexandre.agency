@@ -9,26 +9,24 @@ export default function Skills(){
   return(
     <div className="container_skills">
       <h1 className="titulo">Habilidades</h1>
-      <h3 className="subtitulo">Tecnologias que estou diariamente em contato, seja no trabalho ou estudando.</h3>
+      <h3 className="subtitulo">Tecnologias que trabalho ou estudo diariamente</h3>
       <section className="section_skills">
-      <div >
+      <div>
       <div className="grid_skills">
       {skills.map((item, index) => (
       <ul className="card_skills">
       <li key={index}> <img className="icones_skills" src={item.logo_skill} alt={`Icon ${index}`} /> </li>
       </ul>
       ))}
-
       </div>
       </div>
-
       <div className="container_services">
       <div className="services_grid">
       {services.map((service, index) => (
       <ul className="card_services" key={index}>
-        <li><img width={100} src={service.icon} alt="icon"/> </li>
-        <li>{service.titulo}</li>
-        <li>{service.description}</li>
+        <li><img color="red" width={150} src={service.icon} alt="icon"/> </li>
+        <li className="title_service">{service.titulo}</li>
+        <li className="description_service">{service.description}</li>
       </ul>
     ))}
       </div>

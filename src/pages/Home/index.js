@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import data from '../../data.json';
 import About from "../About";
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+import Hire from "../Hire";
 
 function Home() {
   const { foto_perfil, titulo, nome, sobre_nome, sobre, habilidades, contato } = data.perfil;
@@ -27,6 +30,9 @@ function Home() {
         </div>
       </section>
       <About/>
+      <Portfolio/>
+      <Contact/>
+      <Hire/>
     </div>
   );
 }

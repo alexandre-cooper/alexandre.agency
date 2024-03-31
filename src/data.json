@@ -20,7 +20,8 @@
     "linkedin":"https://www.linkedin.com/in/alexandre-brasil-dos-santos/",
     "github":"https://github.com/alexandre-cooper",
     "insta":"https://www.instagram.com/_alexandre.brasil/",
-    "youtube":"https://www.youtube.com/channel/UCM6JiU-SwOc4GEpVxHFctWw"
+    "youtube":"https://www.youtube.com/channel/UCM6JiU-SwOc4GEpVxHFctWw",
+    "whatsapp":"https://wa.me/+5565992792383"
   },
   "skills": [
   {
@@ -86,8 +87,8 @@
 ],
   "portfolio": [
   {
-      "link":"https://www.google.com",
-      "titulo":"google",
+      "link":"https://www.inversolenergiasolar.com.br",
+      "titulo":"Inversol - Energia Solar",
       "foto_capa":"/inversol.png"
   },
   {
@@ -103,34 +104,29 @@
 ],
   "my_services": [
     {
-      "icon": "/shopify.svg",
-      "titulo": "Development",
-      "description": "Descrição do Serviço 1"
+      "icon": "/developer.svg",
+      "titulo": "Desenvolvedor",
+      "description": "O Desenvolvedor Full Stack é responsável pelo desenvolvimento de soluções completas de software, incluindo tanto o front-end quanto o back-end. Ele projeta e implementa interfaces de usuário, lógica de negócios e bancos de dados, garantindo a funcionalidade e segurança do sistema. Este profissional colabora com equipes multidisciplinares para entregar soluções escaláveis e de alta qualidade."
     },
     {
-      "icon": "/shopify.svg",
-      "titulo": "Design",
-      "description": "Descrição do Serviço 2"
+      "icon": "/designer.svg",
+      "titulo": "Designer",
+      "description": "O Designer é responsável por criar soluções visuais atraentes e funcionais para diversos meios, incluindo design gráfico, design de interface de usuário (UI), e design de experiência do usuário (UX). Utilizando sua criatividade e habilidades técnicas, ele transforma conceitos em designs tangíveis que atendem às necessidades e expectativas do cliente ou usuário final. O Designer colabora com equipes multidisciplinares para garantir a consistência visual e a usabilidade dos produtos finais."
     },
     {
-      "icon": "/shopify.svg",
-      "titulo": "Digital Marketing",
-      "description": "Descrição do Serviço 2"
+      "icon": "/marketing.svg",
+      "titulo": "Marketing digital",
+      "description": "O profissional de Marketing Digital é encarregado de promover produtos ou serviços por meio de canais online, como redes sociais, e-mail marketing, SEO e publicidade online. Sua função é criar estratégias para aumentar a visibilidade da marca, gerar leads qualificados e converter vendas. Analisando dados e métricas, ele ajusta as estratégias para otimizar os resultados e alcançar os objetivos de negócio estabelecidos."
     },
     {
-      "icon": "/shopify.svg",
-      "titulo": "Motion Art",
-      "description": "Descrição do Serviço 2"
+      "icon": "/modelagem.svg",
+      "titulo": "Modelagem 3D",
+      "description": "O especialista em Modelagem 3D cria representações tridimensionais de objetos, cenários ou personagens usando software especializado. Sua habilidade consiste em transformar conceitos e ideias em modelos digitais realistas e detalhados, utilizados em diversos setores como animação, jogos, arquitetura e design industrial. Este profissional é capaz de produzir modelos de alta qualidade que atendam às especificações do projeto e às necessidades do cliente."
     },
     {
-      "icon": "/shopify.svg",
-      "titulo": "3D blender",
-      "description": "Descrição do Serviço 2"
-    },
-    {
-      "icon": "/shopify.svg",
+      "icon": "/animacao.svg",
       "titulo": "Videos animados",
-      "description": "Descrição do Serviço 2"
+      "description": "Profissionais de vídeos animados utilizam ferramentas de animação para criar vídeos dinâmicos e cativantes. Eles desenvolvem narrativas visuais, manipulam personagens, objetos e cenários para contar histórias, explicar conceitos ou promover produtos de forma envolvente. Seu trabalho envolve habilidades de animação, design gráfico e edição de vídeo, resultando em conteúdo visualmente atraente e impactante para diversos fins, como publicidade, entretenimento ou educação."
     }
   ]
 }
