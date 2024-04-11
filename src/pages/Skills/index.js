@@ -1,10 +1,11 @@
 import React from "react";
 import data from '../../data.json';
-
+import Carrousel from "../../components/Carrousel";
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 export default function Skills(){
+
   const services = data.my_services || [];
-  const skills = data.skills || [];
 
   return(
     <div className="container_skills">
@@ -13,25 +14,25 @@ export default function Skills(){
       <section className="section_skills">
       <div>
       <div className="grid_skills">
-      {skills.map((item, index) => (
-      <ul className="card_skills">
-      <li key={index}> <img className="icones_skills" src={item.logo_skill} alt={`Icon ${index}`} /> </li>
-      </ul>
-      ))}
+        <Carrousel/>
       </div>
       </div>
+
+      <br/>
+      <h1>Nossos serviços</h1>
+      <br/>
       <div className="container_services">
+        
       <div className="services_grid">
       {services.map((service, index) => (
       <ul className="card_services" key={index}>
-        <li><img color="red" width={150} src={service.icon} alt="icon"/> </li>
+        <li><img color="red" width={100} src={service.icon} alt="icon"/> </li>
         <li className="title_service">{service.titulo}</li>
         <li className="description_service">{service.description}</li>
       </ul>
     ))}
       </div>
       </div>
-      
       </section>
     </div>
   )

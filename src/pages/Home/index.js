@@ -29,10 +29,6 @@ function Home() {
         </div>
         </div>
       </section>
-      <About/>
-      <Portfolio/>
-      <Contact/>
-      <Hire/>
     </div>
   );
 }

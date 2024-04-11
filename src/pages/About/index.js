@@ -17,7 +17,6 @@ export default function About(){
           </div>
           </span>
       </section>
-      <Skills/>
     </div>
   )
 }

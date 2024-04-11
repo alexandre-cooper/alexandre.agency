@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
 * {
   margin: 0;
   padding: 0;
@@ -277,13 +278,19 @@ section span {
   border-radius: 8px;
 }
 
-.icones_skills {
-  width: 30px;
-  width: 50px;
-  padding: 10px;
+.icon_skill{
+  width: 100px;
+  padding-right: 20px;
+  pointer-events: none;
 }
-.icones_skills:hover{
-  transform: scale(1.2);
+.carrousel{
+  display: flex;
+  width: 400px;
+  cursor: grab;
+  overflow: hidden;
+}
+.inner {
+  display: flex;
 }
 
 .container_services{
@@ -295,7 +302,7 @@ section span {
 
 .services_grid {
   display: grid;
-  grid-template-columns: repeat(1, 600px);
+  grid-template-columns: repeat(3, 280px);
   gap: 5px;  /* Espaço entre as imagens, ajuste conforme necessário */
 }
 
@@ -304,17 +311,14 @@ section span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: solid 3px var(--primary-titulo-text);
-  border-radius: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 10px;
 }
 .title_service {
   font-size: 22px;
   color: var(--primary-titulo-text);
 }
 .description_service {
-  text-align: justify;
+  text-align: center;
 }
 .container {
   position: relative;
@@ -358,8 +362,7 @@ section span {
 }
 
 .container_hire {
-  margin-top: 20px;
-  width: 90%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -377,7 +380,8 @@ section span {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  margin: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .price {
   margin-top: 10px;
@@ -582,7 +586,7 @@ div .portfolio_container {
   }
   .grid_skills {
     display: grid;
-    grid-template-columns: repeat(2, 400px); /* 4 colunas de 250px cada */
+    grid-template-columns: repeat(1, 400px); /* 4 colunas de 250px cada */
     gap: 5px; /* Espaçamento entre as colunas */
   }
   .card_skills {
@@ -605,7 +609,7 @@ div .portfolio_container {
   }
   .services_grid {
     display: grid;
-    grid-template-columns: repeat(1, 300px);
+    grid-template-columns: repeat(1, 500px);
     gap: 5px;  /* Espaço entre as imagens, ajuste conforme necessário */
   }
   .card_services {
