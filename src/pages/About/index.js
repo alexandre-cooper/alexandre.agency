@@ -7,9 +7,9 @@ export default function About(){
   const { description, programing } = data.sobre;
   return(
     <div className="container_about">
-      <h1 className="titulo">Sobre o mim</h1>
+      <h1 className="titulo">About me</h1>
       <section>
-      <h3 className="subtitulo">Bem vindo(a) a meu portfolio!</h3>
+      <h3 className="subtitulo">Welcome to my portfolio!</h3>
         <span>
           <p className="description">{description}</p>
           <div>

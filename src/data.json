@@ -2,7 +2,7 @@
 {
   "perfil": {
     "foto_perfil":"/person.webp",
-    "titulo": "Olá, me chamo",
+    "titulo": "Hi, I am",
     "nome": "Alexandre",
     "sobre_nome":"Brasil",
     "sobre": "I'm a professional Web Developer. Our Main Goal to help & Satisficed the Local & Global Clients by web development solutions",
@@ -14,7 +14,7 @@
   },
   "sobre":{
     "programing":"/programing.svg",
-    "description":"Olá, sou Alexandre Brasil, um entusiasta do Desenvolvimento Web de 23 anos. Nos últimos 3 anos, tenho me dedicado intensamente aos estudos e ao trabalho na área, focando especialmente no ecossistema do JavaScript. Minha jornada começou em 2017 durante o curso de Gestão da Tecnologia da Informação na Unicesumar. Lá, adquiri conhecimentos fundamentais em lógica de programação, algoritmos e tive meu primeiro contato com as linguagens C e Java. Após concluir o curso, busquei aprimoramento e me especializei em Desenvolvimento Mobile pela Universidade Unyleya. Ao longo dessa jornada, explorei tecnologias como JavaScript, CSS, HTML, Type Script, React Native, React JS, Flutter, entre outras. Atualmente, concentro meu foco principal no ecossistema JavaScript, dedicando-me diariamente à criação de novos projetos para aplicar meus conhecimentos na prática.Estou sempre em busca de desafios que me permitam crescer profissionalmente e contribuir para a criação de experiências web excepcionais. Se você estiver interessado em colaborar ou desejar saber mais sobre meus projetos, fique à vontade para entrar em contato."
+    "description":"Hello, I'm Alexandre Brasil, a 23-year-old enthusiast in Web Development. Over the past 3 years, I have been deeply immersed in studying and working in the field, with a special focus on the JavaScript ecosystem. My journey began in 2017 during my Information Technology Management course at Unicesumar. There, I gained essential knowledge in programming logic, algorithms, and had my first encounter with languages like C and Java. After completing the course, I sought further expertise and specialized in Mobile Development at Unyleya University. Throughout this journey, I've explored technologies such as JavaScript, CSS, HTML, Type Script, React Native, React JS, Flutter, among others. Currently, I am primarily focused on the JavaScript ecosystem, dedicating myself daily to creating new projects to apply my knowledge in practice. I'm always seeking challenges that allow me to grow professionally and contribute to creating exceptional web experiences. If you're interested in collaborating or learning more about my projects, feel free to get in touch."
   },
   "contact":{
     "linkedin":"https://www.linkedin.com/in/alexandre-brasil-dos-santos/",
@@ -106,27 +106,27 @@
     {
       "icon": "/developer.svg",
       "titulo": "Web Designer",
-      "description": "O Desenvolvedor Full Stack é responsável pelo desenvolvimento de soluções completas de software, incluindo tanto o front-end quanto o back-end."
+      "description": "O Web Designer é responsável pelo design e layout de páginas web, criando experiências visuais atraentes e funcionais para os usuários."
     },
     {
       "icon": "/developer.svg",
       "titulo": "Desenvolvedor Mobile",
-      "description": "O Desenvolvedor Full Stack é responsável pelo desenvolvimento de soluções completas de software, incluindo tanto o front-end quanto o back-end."
+      "description": "O desenvolvedor mobile é responsável pelo desenvolvimento do aplicativos por completo, desde a interface até sua lógica de programação."
     },
     {
       "icon": "/designer.svg",
       "titulo": "Designer",
-      "description": "O Designer é responsável por criar soluções visuais atraentes e funcionais para diversos meios, incluindo design gráfico, design de interface de usuário (UI), e design de experiência do usuário (UX)."
+      "description": "O Designer é responsável por criar soluções visuais atraentes e funcionais para diversos meios, incluindo design gráfico, design de interface de usuário (UI)."
     },
     {
       "icon": "/marketing.svg",
       "titulo": "Marketing digital",
-      "description": "O profissional de Marketing Digital é encarregado de promover produtos ou serviços por meio de canais online, como redes sociais, e-mail marketing, SEO e publicidade online. "
+      "description": "Marketing Digital é encarregado de promover produtos ou serviços por meio de canais online, como redes sociais."
     },
     {
       "icon": "/modelagem.svg",
       "titulo": "Modelagem 3D",
-      "description": "O especialista em Modelagem 3D cria representações tridimensionais de objetos, cenários ou personagens usando software especializado."
+      "description": "O especialista em Modelagem 3D cria representações tridimensionais de objetos, cenários ou personagens."
     },
     {
       "icon": "/animacao.svg",

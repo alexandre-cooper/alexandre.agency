@@ -35,13 +35,5 @@ function RoutesApp() {
     </Router>
   );
 }
-function AboutRoutes() {
-  return (
-    <div>
-      <h2>Sobre Nós</h2>
-      <Outlet />
-    </div>
-  );
-}
 
 export default RoutesApp;

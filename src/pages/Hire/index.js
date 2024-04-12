@@ -4,7 +4,6 @@ export default function Hire(){
   return(
     <div className="hire">
       <section>
-      <h1>Contrate agora!</h1>
           <div className="container_hire">
             <span className="titulo_hire"><h1>Landing page</h1></span>
             <h3>Implantação, hospedagem e suporte técnico incluido</h3><p>a partir de</p>

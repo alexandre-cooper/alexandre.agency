@@ -13,7 +13,6 @@ export default function Contact(){
                 <li><a target="_blank" href={insta} rel="noreferrer"><i class="bi bi-instagram"></i></a></li>
                 <li> <a target="_blank" href={github} rel="noreferrer"><i class="bi bi-github"></i></a></li>
                 <li> <a target="_blank" href={linkedin} rel="noreferrer"><i class="bi bi-linkedin"></i></a></li>
-                <li> <a target="_blank" href={youtube} rel="noreferrer"><i class="bi bi-youtube"></i></a></li>
                 <li> <a target="_blank" href={whatsapp} rel="noreferrer"><i class="bi bi-whatsapp"></i></a></li>
               </ul>
           </div>

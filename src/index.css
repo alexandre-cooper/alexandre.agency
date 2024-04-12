@@ -31,6 +31,7 @@ a:active {
   color: var(--primary-titulo-text);
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -243,6 +244,7 @@ section span {
 }
 .titulo {
   text-align: center;
+  margin-top: 30px;
 }
 .subtitulo {
   text-align: center;
@@ -256,6 +258,7 @@ section span {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 .section_skills {
   display: flex;
@@ -285,7 +288,7 @@ section span {
 }
 .carrousel{
   display: flex;
-  width: 400px;
+  width: 500px;
   cursor: grab;
   overflow: hidden;
 }
@@ -302,7 +305,7 @@ section span {
 
 .services_grid {
   display: grid;
-  grid-template-columns: repeat(3, 280px);
+  grid-template-columns: repeat(3, 300px);
   gap: 5px;  /* Espaço entre as imagens, ajuste conforme necessário */
 }
 
@@ -311,14 +314,35 @@ section span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
+  transition: all 0.5s;
+}
+.card_services:hover{
+  transform: scale(1.1);
 }
 .title_service {
   font-size: 22px;
   color: var(--primary-titulo-text);
+  font-weight: bold;
+}
+.icon_list{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-titulo-text);
+  width: 100%;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
 }
 .description_service {
+  border-bottom: 2px solid var(--primary-titulo-text);
   text-align: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0px 4px 4px -2px rgba(223, 96, 10, 0.8);
+  font-weight: 300;
+  padding: 5px;
 }
 .container {
   position: relative;
@@ -355,6 +379,8 @@ section span {
   border-radius: 10px;
   margin-top: 30px;
   font-weight: bold;
+  transition: all 0.5s;
+  box-shadow: rgba(0, 0, 0, .1);
 }
 .btn_hire:hover {
   background-color: var(--primary-titulo-text);
@@ -363,6 +389,7 @@ section span {
 
 .container_hire {
   max-width: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -407,6 +434,7 @@ section span {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 div .portfolio_container {
   display: flex;
   flex-direction: column;
@@ -477,13 +505,8 @@ div .portfolio_container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(5, 19, 96, 0.01);
-  box-shadow: 0 4px 17px rgba(0, 0, 0, .5);
 }
 .contact_card {
-    margin-top: 20px; 
-    padding: 20px; 
-    border-radius: 10px; 
     backdrop-filter: blur(5px);
     color: var(--primary-light-text);
     display: flex;
@@ -493,8 +516,9 @@ div .portfolio_container {
     height: 500px;
     align-items: center;
     margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 17px rgba(254, 253, 253, 0.411);
+    border-bottom: 2.5px solid var(--primary-titulo-text);
+    box-shadow: 0px 4px 4px -2px rgba(223, 96, 10, 0.8);
+    
 }
 .container_contact h1 {
   margin-left: 30px;
@@ -512,11 +536,44 @@ div .portfolio_container {
   font-size: 50px;
   color: var(--primary-titulo-text);
 }
+
 .social li a i {
   width: 120px;
 }
-
-
+.form-hire {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0d6efd;
+  align-items: center;
+  justify-content: center;
+}
+.form-hire section{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, .4);
+  align-items: center;
+}
+.form-hire p{
+  color: var(--primary-dark-text);
+}
+.form-hire h1{
+  color: var(--primary-dark-text);
+}
+.form-hire input {
+  width: 100%;
+  font-size: 18px;
+  padding: 4px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.form-hire label {
+  color: var(--primary-dark-text);
+}
 /*  Responsividade  */
 
 @media screen and (max-width: 400px) {
@@ -607,10 +664,20 @@ div .portfolio_container {
     align-items: center;
     justify-content: center;
   }
+  .titulo {
+    text-align: center;
+    margin-top: 45px;
+  }
   .services_grid {
     display: grid;
-    grid-template-columns: repeat(1, 500px);
+    grid-template-columns: repeat(1, 300px);
     gap: 5px;  /* Espaço entre as imagens, ajuste conforme necessário */
+  }
+  .carrousel{
+    display: flex;
+    width: 300px;
+    cursor: grab;
+    overflow: hidden;
   }
   .card_services {
     display: flex;
@@ -643,9 +710,48 @@ div .portfolio_container {
   .photo_portfolio {
     width: 300px;
   }
+  .contact_card {
+    margin-top: 20%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2.5px solid var(--primary-titulo-text);
+    box-shadow: 0px 4px 4px -2px rgba(223, 96, 10, 0.8);
+  }
   .social {
     display: grid;
-    grid-template-columns: repeat(3, 60px);
+    grid-template-columns: repeat(2, 60px);
+  }
+  .hire{
+    margin: 20px;
+  }
+  .container_hire {
+    margin-top: 45px;
   }
 
+}
+.footer header{
+  display: flex;
+  padding-top: 10px;
+}
+.footer header li {
+  padding: 5px;
+}
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  color: var(--primary-dark-text);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
 }

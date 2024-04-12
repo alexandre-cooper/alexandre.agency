@@ -1,14 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Footer(){
   return(
-    <div className="footer">
-      <h1>Voltar ao topo</h1>
+    <footer className="footer">
       <header>
-        <li> <a>Home</a> </li>
-        <li> <a>Teste</a> </li>
-        <li> <a>Teste</a> </li>
-        <li> <a>Teste</a> </li>
+        <li> <Link to={'/'}>Home</Link> </li>
+        <li> <Link to={'/about'}>About</Link> </li>
+        <li> <Link to={'/skills'}>Skills</Link> </li>
+        <li> <Link to={'/portfolio'}>Portfolio</Link> </li>
       </header>
       <div>
         <span className="all_reservs">
@@ -16,6 +15,6 @@ export default function Footer(){
           <p >© Todos os Direitos Reservados. 2024</p>
         </span>
       </div>
-    </div>
+    </footer>
   )
 }
